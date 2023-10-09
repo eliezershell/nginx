@@ -5,12 +5,12 @@ if [ $? -gt 0 ]; then
         echo "Erro ao atualizar pacotes do repositório APT!"; exit 0
 fi
 
-sudo apt install apache2 -y
+sudo apt install nginx -y
 if [ $? -gt 0 ]; then
-        echo "Erro ao instalar Apache2!"; exit 0
+        echo "Erro ao instalar Nginx!"; exit 0
 
-echo "------------------------------Verificando Apache2------------------------------"
-sudo systemctl status apache2
+echo "------------------------------Verificando Nginx------------------------------"
+sudo systemctl status nginx
 echo "-------------------------------------------------------------------------------"
 
 echo "------------------------------Instalação concluída com sucesso!------------------------------"
