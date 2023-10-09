@@ -8,6 +8,7 @@ fi
 sudo apt install nginx -y
 if [ $? -gt 0 ]; then
         echo "Erro ao instalar Nginx!"; exit 0
+fi
 
 echo "------------------------------Verificando Nginx------------------------------"
 sudo systemctl status nginx
