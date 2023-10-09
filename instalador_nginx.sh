@@ -12,7 +12,6 @@ fi
 
 echo "------------------------------Verificando Nginx------------------------------"
 sudo systemctl status nginx
-echo "-------------------------------------------------------------------------------"
 
 echo "------------------------------Instalação concluída com sucesso!------------------------------"
 echo "----------------------Script by: Eliezer Ribeiro | linkedin.com/in/elinux--------------------"
